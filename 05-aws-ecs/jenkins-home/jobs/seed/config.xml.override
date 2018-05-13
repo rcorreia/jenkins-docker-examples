@@ -26,7 +26,7 @@
     <hudson.tasks.Shell>
       <command>cp $JENKINS_HOME/dsl/*.groovy .</command>
     </hudson.tasks.Shell>
-    <javaposse.jobdsl.plugin.ExecuteDslScripts plugin="job-dsl@1.54">
+    <javaposse.jobdsl.plugin.ExecuteDslScripts plugin="job-dsl@1.69">
       <targets>*.groovy</targets>
       <usingScriptText>false</usingScriptText>
       <ignoreExisting>false</ignoreExisting>
